@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+          <span>Softbank</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>110%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+          <span class="screen-header__icons-badge"> </span>
+        </div>
+      </header>
+
+      <main class="main-screen">
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="fas fa-qrcode"></i>
+            <span>QR Code</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-address-book"></i>
+            <span>Add by<br />Contacts</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-fingerprint"></i>
+            <span>Add by ID</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-envelope"></i>
+            <span>Invite</span>
+          </div>
+        </div>
+
+        <div class="recommended-friends">
+          <h6 class="recommended-friends__title">Recommended Friends</h6>
+          <span>You have no recommended friends.</span>
+        </div>
+
+        <div class="open-chat">
+          <div class="open-chat__header">
+            <h4>Open Chat</h4>
+            <span
+              >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+            ></span>
+          </div>
+
+          <div class="open-post">
+            <div class="open-post__column">
+              <h5 class="open-post__title">#BTS</h5>
+              <h6 class="open-post__hashtags">#bts#army#friends</h6>
+              <div class="open-post__members">
+                <img src="images/avatar.jpeg" />
+                <span class="open-post__member-count">802 members</span>
+                <div class="divider"></div>
+                <span class="open-post__member-status">Active</span>
+              </div>
+            </div>
+            <div class="open-post__column">
+              <div class="open-post__photo">
+                <img src="images/avatar.jpeg" />
+                <div class="open-post__heart-count">
+                  <i class="fas fa-heart fa-xs"></i><span>326</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html"
+              ><i class="far fa-user fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notificaton badge">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html"
+              ><i class="fas fa-search fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <span class="nav__ellipsis"> </span>
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="no-mobile">
+        <img src="https://lh3.googleusercontent.com/proxy/8Cg7Iq2moUi8YcYScoyPO_edJYfSswUjdt_SocSV_R_ZX7e24TDBSFTHA36Iwv6OwIeON8aABKnmKb5-N9azD_PE2Xlfpsj0eNuO7w" />
+        <span>Your screen is too big</span><br />
+        <span>화면 사이즈가 너무 커요</span><br />
+        <span>画面サイズが大きいです</span>
+      </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "index.css";
+@import "friends.css";
+@import "chats.css";
+@import "chat.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+
+body {
+    color: #2e363e;
+    font-family: "Open Sans", sans-serif;
+  }
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
+
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: var(--yellow);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+  }
+  
+  @media screen and (max-width: 645px) {
+    #no-mobile {
+      display: none;
+    }
+  }
+  

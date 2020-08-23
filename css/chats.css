@@ -1,0 +1,11 @@
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+.user-component__subtitle {
+  display: flex;
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
